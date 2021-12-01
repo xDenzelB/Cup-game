@@ -59,12 +59,15 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: black;
 }
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 5rem;
     font-weight: bold;
+    background-color:black;
+    color: white;
 }
 
 .gutter-right {
@@ -88,4 +91,5 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+    background-color: black;
 }

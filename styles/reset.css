@@ -11,6 +11,7 @@
 html, body {
     height: 100%;
     width: 100%;
+	
 }
 
 html, body, div, span, applet, object, iframe, blockquote, pre,
@@ -36,3 +37,32 @@ time, mark, audio, video {
 ol, ul {
 	list-style: none;
 }
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	background-color: black;
+
+}
+
+.cup img {
+	width: 265px;
+	align-items: center;
+}
+
+#button-1 {
+	background-color:greenyellow;
+	border-radius: 7px;
+}
+
+#button-2 {
+	background-color: indianred;
+	border-radius: 7px;
+}
+
+#button-3 {
+	background-color: lightblue;
+	border-radius: 7px; 
+}
+
